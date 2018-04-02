@@ -136,7 +136,7 @@ video.video-src{
   display: inline-block;
   width: 11px;
   height: 19px;
-  background: url("/static/img/index/right-slide.png") no-repeat center center;
+  background: url("../img/index/right-slide.png") no-repeat center center;
 }
 .model1-video {
   background-color: #F5F5F5;
@@ -174,12 +174,12 @@ video.video-src{
 .company-logo {
   width: 219px;
   height: 50px;
-  background: url("/static/img/logo.png") no-repeat;
+  background: url("../img/logo.png") no-repeat;
   background-size: contain;
 }
 
 .index-body-top {
-  background: #fff url("/static/img/index/top-bg.jpg") no-repeat left top;
+  background: #fff url("../img/index/top-bg.jpg") no-repeat left top;
   background-size: 100% 100%;
 }
 
@@ -220,12 +220,12 @@ video.video-src{
 
 /*首页模块*/
 .product-model-one {
-  background: #fff url("/static/img/index/us.png") no-repeat right top;
+  background: #fff url("../img/index/us.png") no-repeat right top;
   padding: 120px 15px 300px 15px;
 }
 
 .product-model-one .model1-title {
-  background: url("/static/img/index/01.png") no-repeat left top;
+  background: url("../img/index/01.png") no-repeat left top;
   padding: 100px 0 0 80px;
   position: relative;
 }
@@ -252,7 +252,7 @@ video.video-src{
 /*模块2*/
 .product-model-two {
   padding-top: 200px;
-  background: #fff url("/static/img/index/02.png") no-repeat 80px top;
+  background: #fff url("../img/index/02.png") no-repeat 80px top;
 }
 
 .product-model-two .product2-box {
@@ -287,7 +287,7 @@ video.video-src{
 
 .product-model-three {
   padding-top: 400px;
-  background: #fff url("/static/img/index/03.png") no-repeat 360px 200px;
+  background: #fff url("../img/index/03.png") no-repeat 360px 200px;
 }
 
 .product-model-three .product3-box {
@@ -305,7 +305,7 @@ video.video-src{
 
 .product-model-four {
   padding-top: 24%;
-  background: #fff url("/static/img/index/04.png") no-repeat 50% 14%;
+  background: #fff url("../img/index/04.png") no-repeat 50% 14%;
 }
 
 .product-model-four .product4-box {
@@ -317,7 +317,7 @@ video.video-src{
 
 .product-model-five {
   padding-top: 495px;
-  background: #fff url("/static/img/index/05.png") no-repeat 80% 260px;
+  background: #fff url("../img/index/05.png") no-repeat 80% 260px;
 }
 
 .product-model-five .product5 {
@@ -353,12 +353,12 @@ video.video-src{
 
 .product-model-six {
   padding-top: 20%;
-  background: #fff url("/static/img/index/06.png") no-repeat 86% 27%;
+  background: #fff url("../img/index/06.png") no-repeat 86% 27%;
 }
 
 .product-model-seven {
   padding: 20% 15px 110px 15px;
-  background: #fff url("/static/img/index/07.png") no-repeat 14% 14%;
+  background: #fff url("../img/index/07.png") no-repeat 14% 14%;
 }
 
 .footer {
@@ -521,7 +521,7 @@ body.product2 .footer {
 .product3-title-next-text .icon{
   width: 16px;
   height: 15px;
-  background: url("/static/img/product3/icon.png") no-repeat;
+  background: url("../img/product3/icon.png") no-repeat;
   margin: 0 30px;
 }
 .product3-circle-list .circle-list{
@@ -580,7 +580,7 @@ body.product2 .footer {
 .about-us-body {
   width: 90%;
   max-width: 1268px;
-  background: transparent url("/static/img/about-us/bg.png") no-repeat center center;
+  background: transparent url("../img/about-us/bg.png") no-repeat center center;
   -webkit-background-size: 100% 100%;
   background-size: 100% 100%;
   margin: 100px auto 0 auto;
@@ -659,13 +659,13 @@ body.product2 .footer {
 }
 
 .about-us-body .address-detail .icon.one {
-  background: transparent url("/static/img/about-us/address1.png") no-repeat left top;
+  background: transparent url("../img/about-us/address1.png") no-repeat left top;
   -webkit-background-size: 17px 21px;
   background-size: 17px 21px;
 }
 
 .about-us-body .address-detail .icon.two {
-  background: transparent url("/static/img/about-us/pho.png") no-repeat left top;
+  background: transparent url("../img/about-us/pho.png") no-repeat left top;
   -webkit-background-size: 21px 23px;
   background-size: 21px 23px;
 }
