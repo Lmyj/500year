@@ -2,6 +2,36 @@ html, body {
   height: initial;
   background-color: #f8f8f8;
 }
+ /*Show the controls (hidden at the start by default)*/
+.video-js .vjs-control-bar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.video-js .vjs-big-play-button {
+  /*调整按钮的大小，圆角率，*/
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.video-js .vjs-big-play-button .vjs-icon-placeholder:before{
+/*//调整播放按钮中间的小三角型的大小*/
+/*font-size值是宽度的一半最为合适*/
+  font-size: 62px;
+  top: 24px;
+  height: auto;
+}
+/*//视频暂停播放*/
+.vjs-paused .vjs-big-play-button {
+  display: block;
+}
 
 body {
   font-family: "STHeitiSC-Light", "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", 黑体, Arial, sans-serif;
