@@ -82,8 +82,9 @@ video {
   margin: auto;
 }
 
-video.product1 {
+.video-product1 {
   width: 80%;
+  margin: auto
 }
 
 video.video-src {
@@ -1035,7 +1036,12 @@ body.about-us{
   .study-list-box .this-margin{
     width: 20px;
   }
+  .leader-list-box {
+    width: 100%;
+    margin: 10px auto 240px auto;
+  }
   .leader-list {
     width: 212px;
+    margin-right: 10px;
   }
 }

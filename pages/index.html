@@ -39,10 +39,11 @@
       <p class="video-text">VIDEO</p>
     </div>
     <div class="model1-video col-xs-8 pull-right">
-      <!--<video src="../static/img/product1/test.mp4" controls="controls" class="video-src"></video>-->
-      <video id="example_video_1" class="video-js vjs-default-skin vjs-big-play-centered video-src vjs-16-9" controls preload="none" width="847" height="405" poster="../static/img/index/video.jpg" data-setup="{}">
-        <source src="../static/img/product1/test.mp4" type='video/mp4' />
-      </video>
+      <div class="video-src">
+        <video id="example_video_1" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="none" width="847" height="405" poster="../static/img/index/video.jpg" data-setup="{}">
+          <source src="../static/img/product1/test.mp4" type='video/mp4' />
+        </video>
+      </div>
     </div>
   </div>
 </div>
@@ -108,7 +109,7 @@
 <script src="../static/libs/video/videojs-ie8.min.js"></script>
 <script>
   $(function(){
-    var play = videojs('example_video_1',{
+    var player = videojs('example_video_1',{
       techOrder : ["html5","flash"],
       bigPlayButton : true,
       textTrackDisplay : false,
@@ -121,9 +122,6 @@
         liveDisplay:false,
         playbackRateMenuButton:false
       }
-    });
-    $('body').delegate('.vjs-big-play-centered', 'click', function(){
-      play.requestFullscreen();
     });
   });
 </script>

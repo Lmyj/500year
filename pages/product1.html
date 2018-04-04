@@ -10,6 +10,7 @@
 
   <link rel="stylesheet" href="../static/libs/bootstrap-3.3.7-dist/css/bootstrap.min.css?ver=3.3.7">
   <link rel="stylesheet" href="../static/libs/normalize.css?ver=8.0.0">
+  <link rel="stylesheet" href="../static/libs/video/video-js.min.css">
   <link rel="stylesheet" href="../static/css/main.css?ver=1522399706">
 </head>
 
@@ -54,18 +55,22 @@
       <img src="../static/img/product1/pro1.jpg" alt="pro">
     </li>
     <li>
-      <img src="../static/img/product1/pro2.jpg" alt="pro">
+      <img src="../static/img/product1/pro2.png" alt="pro">
     </li>
     <li>
       <p class="has-max-width">一直以来，我们都希望找到一款产品，可以真正让人类变得更健康，改善人体的每一个细胞，让人由内而外地散发出迷人的活力，现在，她来了</p>
     </li>
     <li>
-      <video src="../static/img/product1/test.mp4" controls="controls" class="product1"></video>
+      <div class="video-product1 center-block">
+        <video id="example_video_1" class="video-js vjs-default-skin vjs-big-play-centered vjs-16-9" controls preload="none" poster="../static/img/product3/video.jpg" data-setup="{}">
+          <source src="../static/img/product1/test.mp4" type='video/mp4' />
+        </video>
+      </div>
     </li>
     <li>
       <p class="product1-title">可能是全球最极致的小分子肽</p>
       <p class="product1-text">纯度在98%以上的纯肽, 分子量小于300道尔顿</p>
-      <img src="../static/img/product1/certificate.jpg" alt="img" width="90%">
+      <img src="../static/img/product1/certificate.jpeg" alt="img" width="90%">
     </li>
     <!--<li>-->
       <!--<p class="product1-title">世界顶级专家团队</p>-->
@@ -107,6 +112,8 @@
 </div>
 <div class="all-body-container footer text-center">广州五百岁有限公司</div>
 <script src="../static/libs/jquery.min.js"></script>
+<script src="../static/libs/video/video.min.js"></script>
+<script src="../static/libs/video/videojs-ie8.min.js"></script>
 <script>
   $(function(){
     $('.close-btn').on('click', function(){
@@ -114,6 +121,20 @@
     });
     $('.show-qrcode').on('click', function(){
       $('.mask-box').slideDown("slow");
+    });
+    var player = videojs('example_video_1',{
+      techOrder : ["html5","flash"],
+      bigPlayButton : true,
+      textTrackDisplay : false,
+      posterImage: false,
+      errorDisplay : false,
+      control : {
+        captionsButton : false,
+        chaptersButton: false,
+        subtitlesButton:false,
+        liveDisplay:false,
+        playbackRateMenuButton:false
+      }
     });
   });
 </script>
