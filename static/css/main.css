@@ -1044,4 +1044,7 @@ body.about-us{
     width: 212px;
     margin-right: 10px;
   }
+  .product-model-three .product3-box{
+    padding-bottom: 10px;
+  }
 }
