@@ -703,7 +703,7 @@ body.product2 .footer {
   margin: 182px auto 260px auto;
 }
 .study-list-box{
-  width: 100%;
+  width: 1140px;
   padding-bottom: 200px;
   border-bottom: 1px solid #DDDDDD;
   margin: auto auto 180px auto;
@@ -1049,5 +1049,8 @@ body.about-us{
   }
   .product2-box .right-pro{
     margin-right: 40px;
+  }
+  .study-list-box{
+    width: 880px;
   }
 }
